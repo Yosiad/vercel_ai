@@ -9,6 +9,7 @@ import { CardTitle, CardDescription, CardHeader, CardContent, Card, CardFooter }
 import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { DropdownMenuTrigger, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuItem, DropdownMenuContent, DropdownMenu } from "@/components/ui/dropdown-menu"
+import { JSX, SVGProps } from "react"
 
 export function Evals() {
   return (
@@ -191,7 +192,7 @@ export function Evals() {
 }
 
 
-function Package2Icon(props) {
+function Package2Icon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -213,7 +214,7 @@ function Package2Icon(props) {
 }
 
 
-function BellIcon(props) {
+function BellIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -234,7 +235,7 @@ function BellIcon(props) {
 }
 
 
-function ListIcon(props) {
+function ListIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -259,7 +260,7 @@ function ListIcon(props) {
 }
 
 
-function ClockIcon(props) {
+function ClockIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -280,7 +281,7 @@ function ClockIcon(props) {
 }
 
 
-function CheckCircleIcon(props) {
+function CheckCircleIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -301,7 +302,7 @@ function CheckCircleIcon(props) {
 }
 
 
-function XCircleIcon(props) {
+function XCircleIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -323,7 +324,7 @@ function XCircleIcon(props) {
 }
 
 
-function SearchIcon(props) {
+function SearchIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -344,7 +345,7 @@ function SearchIcon(props) {
 }
 
 
-function UserIcon(props) {
+function UserIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
