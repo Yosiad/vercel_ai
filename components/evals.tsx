@@ -10,7 +10,7 @@ import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { DropdownMenuTrigger, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuItem, DropdownMenuContent, DropdownMenu } from "@/components/ui/dropdown-menu"
 
-export function Component() {
+export function Evals() {
   return (
     <div className="flex min-h-screen w-full">
       <div className="hidden border-r bg-gray-100/40 lg:block dark:bg-gray-800/40">
